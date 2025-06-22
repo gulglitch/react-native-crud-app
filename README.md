@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+# React Native CRUD App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a full-stack mobile application built with React Native and powered by Supabase. It is a simple to-do list app that demonstrates the core functionality of a CRUD system: Create, Read, Update, and Delete. Users can manage their tasks in real time with authentication and seamless navigation.
 
-## Get started
+## What is CRUD?
 
-1. Install dependencies
+CRUD stands for:
 
-   ```bash
-   npm install
-   ```
+**Create** – Add a new task  
+**Read** – View your list of tasks  
+**Update** – Modify an existing task  
+**Delete** – Remove a task from the list
 
-2. Start the app
+These four operations form the backbone of most modern applications. Understanding how to build them provides a strong foundation for full-stack development and backend interaction.
 
-   ```bash
-   npx expo start
-   ```
+## Transition from JavaScript to React to React Native
 
-In the output, you'll find options to open the app in a
+This project marks a significant step in my development journey. Starting from basic JavaScript, I progressed into React, which introduced the concept of reusable components and a declarative UI approach for web development.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+React Native extends those same principles to mobile development. It enables developers to build cross-platform apps using the same logic and architecture learned in React, but optimized for native performance on iOS and Android devices.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## The Power of JSX
 
-## Get a fresh project
+JSX (JavaScript XML) is a syntax extension that allows writing HTML-like code within JavaScript. This approach improves code readability and tightly integrates UI structure with application logic. Though it appears similar to HTML, it is ultimately transformed into JavaScript under the hood. JSX is one of the key features that makes React and React Native development intuitive and efficient.
 
-When you're ready, run:
+## Navigation with Expo Router
 
-```bash
-npm run reset-project
-```
+For routing and screen navigation, this app uses Expo Router. Unlike traditional navigation libraries that require manual configuration, Expo Router introduces a file-based routing system. By organizing screens as files and folders, the routing structure becomes clearer and more maintainable. This approach aligns with modern best practices in frontend architecture.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Backend Integration with Supabase
 
-## Learn more
+Supabase was used to manage the backend functionalities of this app, including authentication and real-time data storage. As an open-source alternative to Firebase, Supabase offers an easy-to-use dashboard and instant APIs for interacting with your database. It enables secure user login and data handling without the complexity of building a custom backend from scratch.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Application Features
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- User authentication via Supabase  
+- Task creation with live database updates  
+- Viewing a list of stored tasks  
+- Editing existing tasks with immediate updates  
+- Deleting tasks from the database  
+- Built using a modular and clean code structure  
+- Navigation managed through Expo Router
 
-## Join the community
+## Tech Stack
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- React Native  
+- TypeScript  
+- JSX  
+- Supabase  
+- Expo Router
